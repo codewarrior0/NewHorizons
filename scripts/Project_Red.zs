@@ -954,7 +954,7 @@ Assembler.addRecipe(<ProjRed|Transportation:projectred.transportation.pipe:9>, <
 Assembler.addRecipe(<ProjRed|Transportation:projectred.transportation.pipe:10>, <ProjRed|Transportation:projectred.transportation.pipe>, <gregtech:gt.metaitem.01:17299> * 4, 200, 30);
 
 // --- IC Chip
-Assembler.addRecipe(<ProjRed|Fabrication:projectred.fabrication.icchip>, <IC2:itemPartCircuit>, <gregtech:gt.metaitem.01:17526>, <liquid:molten.redstone> * 144, 300, 30); 
+Assembler.addRecipe(<ProjRed|Fabrication:projectred.fabrication.icchip>, <ore:circuitBasic>, <gregtech:gt.metaitem.01:17526>, <liquid:molten.redstone> * 144, 300, 30); 
 
 // --- IC Blue Print
 Assembler.addRecipe(<ProjRed|Fabrication:projectred.fabrication.icblueprint>, <gregtech:gt.metaitem.01:32711>, <gregtech:gt.metaitem.01:17526> * 4, <liquid:molten.redstone> * 144, 600, 30);
@@ -1088,7 +1088,7 @@ Compressor.addRecipe(<ProjRed|Core:projectred.core.part:55>, <ProjRed|Core:proje
 
 
 // --- Circuit Plate
-FormingPress.addRecipe(<ProjRed|Core:projectred.core.part> * 4, <minecraft:stone_pressure_plate> * 4, <IC2:itemPartCircuit>, 400, 16);
+FormingPress.addRecipe(<ProjRed|Core:projectred.core.part> * 4, <minecraft:stone_pressure_plate> * 4, <ore:circuitBasic>, 400, 16);
 
 // --- Silicon Ship
 FormingPress.addRecipe(<ProjRed|Core:projectred.core.part:7>, <ProjRed|Core:projectred.core.part>, <ProjRed|Core:projectred.core.part:13>, 600, 30);
